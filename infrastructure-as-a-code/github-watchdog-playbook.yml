@@ -1,0 +1,7 @@
+---
+- name: Github Watchdog
+  hosts: localhost
+  become: yes
+
+  roles:
+    - github-watchdog

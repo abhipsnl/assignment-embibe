@@ -1,0 +1,9 @@
+---
+script_name: "github-watchdog.sh"
+script_src: "../../../github-watchdog.sh"
+script_dest: "/usr/local/bin/"
+service_src: "../../../github-watchdog.service"
+service_name: "github-watchdog.service"
+service_dest: "/etc/systemd/system/"
+config_src: "../../../config/"
+config_dest: "/usr/local/config/"

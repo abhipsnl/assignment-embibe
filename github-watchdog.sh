@@ -67,10 +67,6 @@ PreRequisite() {
     if [ ! -d "${LOGS_DIR}" ];then
         mkdir -p ${LOGS_DIR}
     fi
-    if [ ! -d ${CONFIG_DIR} ];then
-	    mkdir -p ${CONFIG_DIR}
-	    sudo cp -r config/* ${CONFIG_DIR}/
-    fi
 
     DisplayMessage "Checking Pre-Requisute" "INFO"
     which git >/dev/null 2>&1
