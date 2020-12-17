@@ -38,13 +38,14 @@ monolithic way
 Docker Way
 -----------
 `NOTE` Docker should be install and running for this testing.
+
 ./docker-build-run.sh
 
 
 
 Infrastructure as a Code
 --------------------------
-ansible-playbook infrastructure-as-a-code/github-watchdog-playbook.yml
+`ansible-playbook infrastructure-as-a-code/github-watchdog-playbook.yml`
 
 Author
 ------
