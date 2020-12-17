@@ -9,11 +9,15 @@ which monitor contributions list for given open github project
 
 Variables
 ----------
-`GITHUB_PROJECTS`                                            # Name of the github project, for multiple projects add the name with comma (,)
-`NOTIFICATION_CHENNEL`                                       # Supported channels are slack, email, Twitter account.
+`GITHUB_PROJECTS`        # Name of the github project, for multiple projects add the name with comma (,)
+
+`NOTIFICATION_CHENNEL`   # Supported channels are slack, email, Twitter account.
+
 `YOUR_WEBHOOK_URL`
-`POLLING_INTERVAL`                                           # Supported input Seconds, Minutes, Hour, ( 10s, 10m, 1h)
-`GIT_USERNAME`                                               # GitHub Username
+
+`POLLING_INTERVAL`      # Supported input Seconds, Minutes, Hour, ( 10s, 10m, 1h)
+
+`GIT_USERNAME`          # GitHub Username
 
 
 
