@@ -9,15 +9,15 @@ which monitor contributions list for given open github project
 
 Variables
 ----------
-`GITHUB_PROJECTS`        # Name of the github project, for multiple projects add the name with comma (,)
+`GITHUB_PROJECTS` Name of the github project, for multiple projects add the name with comma (,)
 
-`NOTIFICATION_CHENNEL`   # Supported channels are slack, email, Twitter account.
+`NOTIFICATION_CHENNEL`  Supported channels are slack, email, Twitter account.
 
-`YOUR_WEBHOOK_URL`
+`YOUR_WEBHOOK_URL`  Your slack webhook URL
 
-`POLLING_INTERVAL`      # Supported input Seconds, Minutes, Hour, ( 10s, 10m, 1h)
+`POLLING_INTERVAL` Supported input Seconds, Minutes, Hour, ( 10s, 10m, 1h)
 
-`GIT_USERNAME`          # GitHub Username
+`GIT_USERNAME`  GitHub Username
 
 
 
@@ -33,6 +33,17 @@ monolithic way
 2) cd assignment-embibe && ./monolithic-way.sh
 
 3) service github-watchdog status 
+
+
+Docker Way
+-----------
+`NOTE` Docker should be install and running for this testing.
+./docker-build-run.sh
+
+
+
+Infrastructure as a Code
+--------------------------
 
 
 Author
