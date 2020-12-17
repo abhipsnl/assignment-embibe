@@ -69,7 +69,7 @@ PreRequisite() {
     fi
     if [ ! -d ${CONFIG_DIR} ];then
 	    mkdir -p ${CONFIG_DIR}
-	    cp -r config/* ${CONFIG_DIR}/
+	    sudo cp -r config/* ${CONFIG_DIR}/
     fi
 
     DisplayMessage "Checking Pre-Requisute" "INFO"
