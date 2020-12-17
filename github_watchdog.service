@@ -1,0 +1,9 @@
+[Unit]
+Description=GitHub WatchDog
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/github-watchdog.sh
+
+[Install]
+WantedBy=default.target
