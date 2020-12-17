@@ -44,7 +44,7 @@ Docker Way
 
 Infrastructure as a Code
 --------------------------
-
+ansible-playbook infrastructure-as-a-code/github-watchdog-playbook.yml
 
 Author
 ------
